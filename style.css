@@ -5,16 +5,19 @@ body {
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6;
 }
 
 h1,h2,h3,h4,h5,h6 {
+  color: hsl(223, 47%, 23%);
   margin: 0;
 }
 
 p {
-  font-weight: 300;
+  font-weight: 500;
+  margin: 0;
 }
 
 .mainContainer {
@@ -33,7 +36,8 @@ p {
 }
 
 .cardBannerContainer {
-  background-color: hsl(223, 47%, 23%);
+  background-image: url("./images/illustration-hero.svg") ;
+  background-size: cover;
   border-radius: 12px 12px 0px 0px;
   height: 30%;
 }
@@ -43,11 +47,83 @@ p {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 40px;
   height: 70%;
 }
 
-.footerContainer {
+.item-container {
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  box-sizing: border-box;
+  border-radius: 10px;
   display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: 90px;
+  width: 100%;
+  padding: 20px;
+}
+
+.item-logo {
+  display: flex;
+  width: 20%;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.item-action {
+  color: hsl(245, 75%, 52%);
+  font-weight: 800;
+  width: 20%;
+}
+
+.item-action:hover a {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.summary-text {
+  width: 250px;
+  text-align: center;
+}
+
+.main-button {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 15px 23px -2px rgba(0,0,0,0.33);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+}
+
+.main-button:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background: none;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 800;
+}
+
+.secondary-button:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.footerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
   justify-content: center;
 }

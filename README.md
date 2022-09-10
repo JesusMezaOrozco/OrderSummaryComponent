@@ -24,14 +24,9 @@ Doing some funny stuff is the best way that I could use to practice and master m
 In this case I will work building a summary order component with CSS and HTML according to a design pre defined.
 
 ### Screenshot
-Building...
-
-### Links
-Building...
-## My process
+![Result Screenshot for the Order Summary Component](./images/screenshotResult.png)
 
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -39,13 +34,12 @@ Building...
 - Mobile-first workflow
 
 ### What I learned
-In progress...
-
-### Continued development
-In progress...
-
-### Useful resources
-In progress...
+- Desktop-first workflow
+- Basic CSS
+  - Flexbox 
+  - Pseudoselectors
+- Semantic HTML5 markup
+- CSS custom properties
 
 ## Author
 
